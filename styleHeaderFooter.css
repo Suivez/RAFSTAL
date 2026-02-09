@@ -1,0 +1,105 @@
+/* Nagłówek 
+/* RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* STICKY HEADER */
+.site-header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: #F0F0DB;
+  border-bottom: 1px solid #e0e0cc;
+  z-index: 1000;
+  padding: 0.9rem;
+  height: auto;
+}
+
+/* WRAPPER */
+.header-inner {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* LOGO */
+.logo a {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #30364F
+}
+
+/* NAV */
+.nav {
+  display: flex;
+  gap: 25px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #30364F;
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-bottom: 1px solid #30364F;
+  border-radius: 8px;
+}
+
+.nav a:hover {
+  transform: translateY(-4px);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  color: #30364F;
+  background-color: #E1D9BC;
+}
+
+/* PHONE */
+.phone a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #30364F;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .header-inner {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .nav {
+    width: 100%;
+    justify-content: center;
+    order: 3;
+  }
+
+  .phone {
+    order: 2;
+  }
+
+  .logo {
+    order: 1;
+  }
+}
+
+/* Stopka */
+.footer-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #30364F;
+    -webkit-box-shadow: 0px 0px 16px -7px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 0px 16px -7px rgba(66, 68, 90, 1);
+    box-shadow: 0px 0px 16px -7px rgba(66, 68, 90, 1);
+    color: #ACBAC4;
+}
