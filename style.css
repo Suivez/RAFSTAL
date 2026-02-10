@@ -113,6 +113,10 @@ button:hover{
     .feature-list {
         grid-template-columns: 1fr;
     }
+
+    .text-cover h1{
+        font-size: 4rem;
+    }
 }
 
 /* Kontakt */
