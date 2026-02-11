@@ -103,6 +103,12 @@ button:hover{
 }
 
 /* RESPONSIVE */
+@media (max-width: 780px){
+    .cover-box {
+        min-height: calc(100vh - 109px);
+    }
+}
+
 @media (max-width: 1024px) {
     .feature-list {
         grid-template-columns: repeat(2, 1fr);
