@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
@@ -7,6 +9,9 @@ body {
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     color: #EAEFEF;
+    font-family: "SN Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 /* Baner */
@@ -139,7 +144,6 @@ button:hover{
   max-width: 600px;
   margin: 40px auto;
   padding: 24px;
-  font-family: Arial, sans-serif;
   color: #30364F;
 }
 
